@@ -36,8 +36,10 @@
                 android:value="ua.in.danilichev.sunshine.app.MainActivity" />
         </activity>
         <provider
+            android:name=".data.WeatherProvider"
             android:authorities="ua.in.danilichev.sunshine.app"
-            android:name=".data.WeatherProvider" />
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>
